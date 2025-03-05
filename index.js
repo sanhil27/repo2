@@ -19,6 +19,9 @@ app.get('/js',(req,res) => {
 app.get('/js',(req,res) => {
     res.send('new testing2');
 })
+app.get('/js',(req,res) => {
+    res.send('new testing3');
+})
 
 app.listen(2000, () => {
     console.log('express app listening on port 2000');
