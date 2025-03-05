@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/sanhil27/repo2/compare/v1.4.0...v2.0.0) (2025-03-05)
+
+
+### Features
+
+* fixing old bug ([3b19aeb](https://github.com/sanhil27/repo2/commit/3b19aeb2e8b66709540389d9974147475ecb5d3e))
+
+
+### BREAKING CHANGES
+
+* This fixes a major bug
+
 # [1.4.0](https://github.com/sanhil27/repo2/compare/v1.3.1...v1.4.0) (2025-03-05)
 
 
