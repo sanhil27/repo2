@@ -8,6 +8,9 @@ app.get('/', (req, res) => {
     res.send(`${a} + ${b} = ${a + b}, ${a*b}`);
 });
 
+
+app.get('/js',(req,res) => {})
+
 app.listen(2000, () => {
     console.log('express app listening on port 2000');
 })
