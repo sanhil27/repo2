@@ -11,6 +11,10 @@ app.get('/', (req, res) => {
 
 app.get('/js',(req,res) => {
     res.send('new testing');
+}) 
+
+app.get('/js',(req,res) => {
+    res.send('new testing1');
 })
 
 app.listen(2000, () => {
