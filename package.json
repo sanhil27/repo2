@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "nodemon index.js",
-    "release": "semantic-release"
+    "release": "semantic-release --no-ci"
   },
   "keywords": [],
   "author": "",
