@@ -1,3 +1,15 @@
+## [2.0.1](https://github.com/sanhil27/repo2/compare/v2.0.0...v2.0.1) (2025-03-05)
+
+
+### Bug Fixes
+
+* fixing testing 2 ([da0489f](https://github.com/sanhil27/repo2/commit/da0489f28583acfaff7c0ed52eb01e9c3263f00f))
+
+
+### Performance Improvements
+
+* fixing testing 3 ([a33d75b](https://github.com/sanhil27/repo2/commit/a33d75bdfa1d83d2aecc259b78449d41b1012868))
+
 # [2.0.0](https://github.com/sanhil27/repo2/compare/v1.4.0...v2.0.0) (2025-03-05)
 
 
