@@ -1,7 +1,17 @@
 {
   "branches": ["master"],
   "plugins": [
-    "@semantic-release/commit-analyzer",
+    ["@semantic-release/commit-analyzer", {
+      "preset": "angular",
+      "releaseRules": [
+        {"type": "feat", "release": "minor"},
+        {"type": "fix", "release": false},
+        {"type": "refactor", "release": false},
+        {"type": "chore", "release": false},
+        {"type": "perf", "release": "patch"},
+        {"type": "BREAKING CHANGE", "release": "major"}
+      ]
+    }],
     "@semantic-release/release-notes-generator",
     ["@semantic-release/changelog", {
       "changelogFile": "CHANGELOG.md"
