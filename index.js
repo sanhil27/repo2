@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
 
 
 app.get('/js',(req,res) => {
-    res.send('working')
+    res.send('<h1>hello world</h1>');
 })
 
 app.listen(2000, () => {
